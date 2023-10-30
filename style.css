@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+.container {
+  width: 600px;
+  height: 400px;
+  background-color: #fff;
+  margin: 110px auto;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  position: relative;
+}
+form input {
+  width: 50;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  outline: 0;
+  border: 0;
+}
+input[type="submit"] {
+  background-color: #194ea4;
+  color: white;
+  cursor: pointer;
+  margin-left: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80px;
+}
+input[type="text"] {
+  width: 50%;
+}
+
+li {
+  list-style-type: none;
+}
+.weather-data {
+  position: absolute;
+  right: 35px;
+
+  bottom: 70px;
+}
+
+.weather-data li {
+  padding: 10px;
+}
+.day {
+  font-size: 30px;
+  margin-top: 15px;
+  text-align: left;
+  margin-left: 25px;
+}
+.days {
+  position: absolute;
+  left: 35px;
+
+  bottom: 110px;
+}
+.days li {
+  padding: 3px;
+}
+a {
+  color: lightskyblue;
+  text-decoration: none;
+}
+#dates {
+  color: gray;
+}
+button {
+  background-color: rgb(80, 190, 80);
+  color: #fff;
+  padding: 15px;
+  border: none;
+  margin-left: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80px;
+}
+.dec {
+  font-size: 45px;
+
+  position: absolute;
+  left: 40px;
+  bottom: 50px;
+}
+
+#temperature-description {
+  text-align: left;
+}
+h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 20%;
+}
+#search-input {
+  width: 300px;
+}
+h1 {
+  position: absolute;
+  left: 8%;
+}

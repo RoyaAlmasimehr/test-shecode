@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <input
+          type="search"
+          placeholder="search for a city "
+          autocomplete="off"
+          outofovus="on"
+          id="search-input"
+        />
+
+        <input type="submit" value="Search" id="city-input" />
+
+        <button calss="btn" type="button">Current</button>
+      </form>
+      <h1 class="day" id="city-name"></h1>
+      <h3></h3>
+      <ul class="days">
+        <li id="dates"></li>
+        <li id="temperature-description"></li>
+      </ul>
+      <div class="weather-body">
+        <div class="clearfix"></div>
+
+        <div class="dec">
+          <span class="temperature" id="temperature"></span
+          ><span class="units">
+            <a href="#" id="celsius-link"></a>
+          </span>
+        </div>
+        <div class="weather-data">
+          <ul>
+            <li id="humidity">Humidity:</li>
+            <li id="wind">Wind:</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
